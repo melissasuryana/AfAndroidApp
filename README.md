@@ -6,8 +6,8 @@ Some screenshots of how the app looks like
 
 ![login](screenshots/login.PNG?raw=true)
 
-![product-list](screenshots/product list.png?raw=true)
+![product-list](screenshots/product%20list.png?raw=true)
 
-![product-order](screenshots/product order.png?raw=true)
+![product-order](screenshots/product%20order.png?raw=true)
 
-![suppliers-list](screenshots/suppliers list.png?raw=true)
+![suppliers-list](screenshots/suppliers%20list.png?raw=true)
