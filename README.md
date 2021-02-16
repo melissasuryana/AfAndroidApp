@@ -4,10 +4,10 @@ This project contains samples of Android App code that fetches and displaye supp
 
 Some screenshots of how the app looks like
 
-![login](screenshots/login.PNG?raw=true)
+<img src="screenshots/login.PNG" width="200">
 
-![product-list](screenshots/product%20list.png?raw=true)
+<img src="screenshots/product%20list.png" width="200">
 
-![product-order](screenshots/product%20order.png?raw=true)
+<img src="screenshots/product%20order.png" width="200">
 
-![suppliers-list](screenshots/suppliers%20list.png?raw=true)
+<img src="screenshots/suppliers-list.png" width="200">
