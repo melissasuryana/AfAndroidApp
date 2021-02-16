@@ -1,4 +1,4 @@
-# Af Android App
+# Android app to view and order beverages from suppliers
 
 This project contains samples of Android App code that fetches and display beverage supplier information and product details from a backend API. The code sample gives an overview of the app UI structure.
 
