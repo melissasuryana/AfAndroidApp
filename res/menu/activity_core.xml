@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_submit_all"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="@string/submit_all_title"
+        android:visible="false"
+        android:onClick="onSubmitAllClicked"/>
+    <item
+        android:id="@+id/menu_add_product"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="@string/menu_add_product"
+        android:onClick="onAddProductClicked"/>
+    <item
+        android:id="@+id/menu_add_order"
+        android:orderInCategory="3"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_add_order"
+        android:title="@string/menu_add_order"
+        android:onClick="onAddOrderClicked"/>
+    <item
+        android:id="@+id/menu_search"
+        android:orderInCategory="4"
+        android:showAsAction="always|collapseActionView"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/menu_search"
+        android:actionViewClass="com.actionbarsherlock.widget.SearchView"/>
+    <item
+        android:id="@+id/menu_refresh"
+        android:orderInCategory="5"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/menu_refresh"
+        android:onClick="onRefreshClicked"/>    
+    <item
+        android:id="@+id/menu_logout"
+        android:orderInCategory="6"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_logout_white"
+        android:title="@string/menu_logout"
+        android:onClick="onLogoutClicked"/>
+
+</menu>

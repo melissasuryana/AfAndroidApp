@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="use_live">true</bool>    
+    <string name="demo_url">http://demo.accountsflow.com.au</string>
+    <string name="live_url">https://www.accountsflow.com.au</string>
+    <string name="login_api">/api/access/login</string>
+    <string name="logout_api">/api/access/logout</string>
+    <string name="retailer_businesses_api">/api/retailer/businesses</string>
+    <string name="supplier_businesses_api">/api/supplier/businesses</string>
+    <string name="retailer_suppliers_api">/api/retailer/suppliers</string>
+    <string name="supplier_retailers_api">/api/supplier/retailers</string>
+    <string name="retailer_products_api">/api/retailer/products</string>
+    <string name="retailer_prices_api">/api/retailer/prices</string>
+    <string name="retailer_basket_save_api">/api/retailer/basket_save</string>
+    <string name="supplier_basket_save_api">/api/supplier/basket_save</string>
+    <string name="retailer_basket_send_api">/api/retailer/basket_send</string>
+    <string name="supplier_basket_send_api">/api/supplier/basket_send</string>
+    <string name="retailer_purchaseorders_api">/api/retailer/purchaseorders</string>
+    <string name="supplier_purchaseorders_api">/api/supplier/purchaseorders</string>
+    <string name="retailer_promotions_api">/api/retailer/promotions/</string>
+    <string name="supplier_promotions_api">/api/supplier/promotions</string>
+    <string name="retailer_discounts_api">/api/retailer/discounts/</string>
+    <string name="supplier_discounts_api">/api/supplier/discounts</string>
+    <string name="retailer_favourites_api">/api/retailer/favourites/</string>
+    <string name="supplier_favourites_api">/api/supplier/favourites</string>
+    <string name="retailer_baskets_api">/api/retailer/baskets/</string>
+    <string name="supplier_baskets_api">/api/supplier/baskets</string>
+    <string name="retailer_basket_delete_api">/api/retailer/basket_delete/</string>
+    <string name="supplier_basket_delete_api">/api/supplier/basket_delete</string>
+</resources>

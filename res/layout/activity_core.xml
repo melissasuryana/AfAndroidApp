@@ -1,0 +1,48 @@
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:id="@+id/loading_image_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/loading_images_color"
+            android:orientation="horizontal"
+            android:padding="@dimen/small_margin" 
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/loading_image_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="5dp"
+                android:text="@string/loading_images" />
+            
+            <ProgressBar
+                style="@android:style/Widget.ProgressBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/loading_image_label" />
+            
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/left_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</TabHost>

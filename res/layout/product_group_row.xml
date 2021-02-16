@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/category_bg_color"
+    android:orientation="vertical"
+    android:padding="6dip" >
+
+
+    <TextView
+        android:id="@+id/product_group_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/list_item_color"
+        android:textSize="@dimen/product_desc_text_size" />
+
+</LinearLayout>

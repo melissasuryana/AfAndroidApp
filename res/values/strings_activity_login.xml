@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_register"><b>Sign in</b> or register</string>
+    <string name="action_sign_in_short"><b>Sign in</b></string>
+    <string name="menu_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Signing in&#8230;</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_credential">Invalid email or password</string>
+    <string name="error_login_general">Unable to sign in</string>
+    <string name="error_title">Alert</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_remember_me">Unable to save credential</string>
+	<string name="remember_me">Remember Me</string>
+	<string name="ok">OK</string>
+</resources>

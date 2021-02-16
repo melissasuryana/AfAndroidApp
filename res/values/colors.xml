@@ -1,0 +1,31 @@
+<!--
+  Copyright 2011 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <color name="actionbar_title_color">#224894</color>
+    <color name="loading_images_color">#dddddd</color>
+    <color name="af_black">#000000</color>
+    <color name="af_green">#b5e58a</color>
+    <color name="af_yellow">#ede308</color>
+    <color name="af_white">#ffffff</color>
+    <color name="af_grey">#777777</color>
+    <color name="af_red">#ff0000</color>
+    <color name="af_dark_green">#588831</color>
+    <color name="af_light_grey">#f5f5f5</color>
+    <color name="category_bg_color">#dddddd</color>
+    <color name="left_panel_bg">#efefef</color>
+    <color name="selected_list_color">#bbb</color>
+</resources>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/af_light_grey"
+	    android:orientation="vertical" >
+	
+	    <TextView
+	        android:id="@+id/product_desc_text"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/banner_bg"
+	        android:paddingBottom="@dimen/small_margin"
+	        android:paddingLeft="@dimen/small_margin"
+	        android:paddingTop="@dimen/small_margin"
+	        android:text=""
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="@color/af_white" />
+	
+	    <TextView
+	        android:id="@+id/product_category_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:layout_marginBottom="@dimen/small_margin"
+	        android:layout_marginRight="@dimen/small_margin"
+	        android:layout_marginTop="@dimen/small_margin"
+	        android:text=""
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="@color/af_grey" />
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="@dimen/small_margin"
+	        android:layout_marginRight="@dimen/small_margin"
+	        android:orientation="vertical" >
+	
+	        <TextView	            
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/border_bottom"
+	            android:text="@string/cases_uppercase_title"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="@color/af_dark_green" />
+	
+	        <TextView
+	            android:id="@+id/history_item_cases"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="@dimen/small_margin"
+	            android:layout_marginLeft="@dimen/small_margin"
+	            android:layout_marginTop="@dimen/text_margin"
+	            android:text=""
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/border_bottom"
+	            android:text="@string/units_uppercase_title"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="@color/af_dark_green" />
+	
+	        <TextView
+	            android:id="@+id/history_item_units"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="@dimen/small_margin"
+	            android:layout_marginLeft="@dimen/small_margin"
+	            android:layout_marginTop="@dimen/text_margin"
+	            android:text=""
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/border_bottom"
+	            android:text="@string/wholesale_uppercase_title"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="@color/af_dark_green" />
+	
+	        <TextView
+	            android:id="@+id/history_item_wholesale"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="@dimen/small_margin"
+	            android:layout_marginLeft="@dimen/small_margin"
+	            android:layout_marginTop="@dimen/text_margin"
+	            android:text=""
+	            android:textAppearance="?android:attr/textAppearanceSmall" />	
+	           
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/border_bottom"
+	            android:text="@string/tax_rate_uppercase_title"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="@color/af_dark_green" />
+	
+	        <TextView
+	            android:id="@+id/history_item_tax_rate"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="@dimen/small_margin"
+	            android:layout_marginLeft="@dimen/small_margin"
+	            android:layout_marginTop="@dimen/text_margin"
+	            android:text=""
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/border_bottom"
+	            android:text="@string/product_tax_title"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="@color/af_dark_green" />
+	
+	        <TextView
+	            android:id="@+id/history_item_tax"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="@dimen/small_margin"
+	            android:layout_marginLeft="@dimen/small_margin"
+	            android:layout_marginTop="@dimen/text_margin"
+	            android:text=""
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/border_bottom"
+	            android:text="@string/cost_uppercase_title"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="@color/af_dark_green" />
+	
+	        <TextView
+	            android:id="@+id/history_item_cost"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="@dimen/small_margin"
+	            android:layout_marginLeft="@dimen/small_margin"
+	            android:layout_marginTop="@dimen/text_margin"
+	            android:text=""
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/border_bottom"
+	            android:text="@string/bonus_cases_uppercase_title"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="@color/af_dark_green" />
+	
+	        <TextView
+	            android:id="@+id/history_item_bonus_cases"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="@dimen/small_margin"
+	            android:layout_marginLeft="@dimen/small_margin"
+	            android:layout_marginTop="@dimen/text_margin"
+	            android:text=""
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/border_bottom"
+	            android:text="@string/bonus_units_uppercase_title"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="@color/af_dark_green" />
+	
+	        <TextView
+	            android:id="@+id/history_item_bonus_units"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="@dimen/small_margin"
+	            android:layout_marginLeft="@dimen/small_margin"
+	            android:layout_marginTop="@dimen/text_margin"
+	            android:text=""
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/border_bottom"
+	            android:text="@string/case_discounts_uppercase_title"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="@color/af_dark_green" />
+	
+	        <TextView
+	            android:id="@+id/history_item_case_discounts"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="@dimen/small_margin"
+	            android:layout_marginLeft="@dimen/small_margin"
+	            android:layout_marginTop="@dimen/text_margin"
+	            android:text=""
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	    </LinearLayout>
+	
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/current_order_footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/small_margin" >
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:text="@string/order_total_label"
+            android:textStyle="bold"
+            android:layout_weight="0.75" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/order_row_total_price"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:layout_weight="0.25">
+        </TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/progress_order_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/progress_order_text"
+        android:onClick="progressOrder" />
+
+</LinearLayout>

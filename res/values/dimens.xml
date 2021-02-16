@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_margin">20dp</dimen>
+    <dimen name="medium_margin">20dp</dimen>
+    <dimen name="small_margin">10dp</dimen>
+    <dimen name="text_margin">5dp</dimen>
+    <dimen name="actionbar_compat_height">48dp</dimen>
+    <dimen name="actionbar_compat_button_width">48dp</dimen>
+    <dimen name="actionbar_compat_button_home_width">56dp</dimen>
+    <dimen name="list_icon_width">70dp</dimen>
+    <dimen name="list_icon_height">50dp</dimen>
+    <dimen name="product_desc_text_size">17sp</dimen>
+    <dimen name="product_price_text_size">13sp</dimen>
+    <dimen name="supplier_menu_text_size">20sp</dimen>
+    <dimen name="small_icon_width">22dp</dimen>
+    <dimen name="small_icon_height">22dp</dimen>
+    <dimen name="star_top_margin">6dp</dimen>
+</resources>

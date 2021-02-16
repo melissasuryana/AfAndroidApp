@@ -1,0 +1,53 @@
+<!-- API level 11+ only needs the container for tab content. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+	
+	<RelativeLayout
+          android:id="@+id/loading_image_bar"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/loading_images_color"
+          android:orientation="horizontal"
+          android:padding="@dimen/small_margin" 
+          android:visibility="gone">
+
+          <TextView
+              android:id="@+id/loading_image_label"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerInParent="true"
+              android:layout_marginRight="5dp"
+              android:text="@string/loading_images" />
+          
+          <ProgressBar
+              style="@android:style/Widget.ProgressBar.Small"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_toRightOf="@id/loading_image_label" />
+          
+      </RelativeLayout>
+      
+	<LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	
+        <FrameLayout
+            android:id="@+id/left_fragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/drop_shadow" />
+	
+	    <FrameLayout android:id="@+id/right_fragment"
+	              android:layout_weight="2"
+	              android:layout_width="0dp"
+	              android:layout_height="match_parent"
+	              android:background="@color/af_white"
+	              android:visibility="gone" />
+	
+	</LinearLayout>
+	
+</LinearLayout>

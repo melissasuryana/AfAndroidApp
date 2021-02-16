@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/submit_order_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/submit_order_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/submit_order_progress"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/submit_order_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_margin"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/order_name_title" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/order_name_text"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small_margin"
+            android:layout_marginLeft="@dimen/small_margin"
+            android:layout_marginRight="@dimen/small_margin"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/order_notes_title" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/order_notes_text"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium_margin"
+            android:layout_marginLeft="@dimen/small_margin"
+            android:layout_marginRight="@dimen/small_margin"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/save_order_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/small_margin"
+                android:text="@string/save_order_title" />
+
+            <Button
+                android:id="@+id/submit_order_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit_order_title" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium_margin"
+            android:layout_marginLeft="@dimen/small_margin"
+            android:layout_marginRight="@dimen/small_margin"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:text="@string/progress_order_note" />
+    </LinearLayout>
+
+</LinearLayout>
